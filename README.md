@@ -10,7 +10,12 @@ npm i
 npm run dev
 ```
 ## Notes
+or after cloning the repo and installing dependencies you can run frontend and backend separately
 
+```
+npm run start
+npm run server
+```
 ### Technologies were used to create this app
 - React.js
 - Express.js
