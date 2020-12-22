@@ -1,6 +1,17 @@
-## Passport Starter
+# "Passport Login" app
 
-Starting point for the youtube tutorial series @ https://www.youtube.com/watch?v=A23O4aUftXk
+App allows users to login with their Facebook of Google accounts using Passport.js module
 
-In this tutorial series we'll be learning how to use different passport strategies for OAuth2 login 
-authentication for some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon!
+## How to use
+
+```bash
+git clone <this repo>
+npm i
+npm run dev
+```
+## Notes
+
+### Technologies were used to create this app
+- React.js
+- Express.js
+- Passport.js
