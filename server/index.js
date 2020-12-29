@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
@@ -49,7 +50,7 @@ app.use(passport.initialize());
 app.get('/auth/google', passport.authenticate(
   'google',
   {
-    scope: ['profile',],
+    scope: ['profile', 'email'],
   }
 ));
 
