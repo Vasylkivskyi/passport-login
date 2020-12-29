@@ -1,10 +1,13 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const FACEBOOK = {
-    clientID: "5485118628180637",
-    clientSecret: "2fb52ab6f7ef37823b5244fd62383470"
+    clientID: process.env.FACEBOOK_CLIENT_ID,
+    clientSecret: process.env.FACEBOOK_CLIENT_SECRET
 };
 const GOOGLE = {
-    clientID: "1037826694872-r1isecutqcsej48hpd79qqbnor6udr4e.apps.googleusercontent.com",
-    clientSecret: "n-PDJkjMZmL8u1WfoV_fRqX7"
+    clientID: process.env.GOOGLE_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
 };
 module.exports = {
     FACEBOOK,
